@@ -1,4 +1,11 @@
 package gg.aquatic.furnique.api
 
-class FurniquePlugin {
+import org.bukkit.plugin.java.JavaPlugin
+
+abstract class FurniquePlugin: JavaPlugin() {
+
+    companion object {
+        lateinit var INSTANCE: FurniquePlugin
+    }
+
 }
