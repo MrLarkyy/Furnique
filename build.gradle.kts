@@ -31,12 +31,14 @@ subprojects {
         maven(url = "https://mvn.lumine.io/repository/maven-public/")
         maven("https://hub.spigotmc.org/nexus/content/repositories/snapshots/")
         maven("https://jitpack.io")
+        maven("https://maven.radsteve.net/public")
         maven {
             url = uri("https://repo.nekroplex.com/releases")
         }
     }
 
     dependencies {
+        implementation("net.radstevee.packed:packed-core:1.0.3")
         compileOnly("org.spigotmc:spigot-api:1.21.4-R0.1-SNAPSHOT")
         compileOnly("com.github.LoneDev6:API-ItemsAdder:3.6.2-beta-r3-b")
         compileOnly("gg.aquatic.comet:Comet-API:1.4.0")
