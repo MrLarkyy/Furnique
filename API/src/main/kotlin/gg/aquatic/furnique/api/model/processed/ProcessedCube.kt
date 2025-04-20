@@ -13,6 +13,6 @@ class ProcessedCube(
     val rotation: CubeRotation,
 ) {
 
-    class CubeRotation(axis: Axis, rotation: Float)
+    class CubeRotation(val axis: Axis, val rotation: Float)
 
 }
