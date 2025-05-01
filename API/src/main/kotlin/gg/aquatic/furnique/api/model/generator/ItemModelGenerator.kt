@@ -6,14 +6,12 @@ import gg.aquatic.furnique.api.model.processed.ProcessedModel
 import me.rochblondiaux.blockbench.element.face.BlockBenchElementFace
 import me.rochblondiaux.blockbench.element.uv.BlockBenchUvImpl
 import net.radstevee.packed.core.item.*
-import net.radstevee.packed.core.item.ItemModel
 import net.radstevee.packed.core.key.Key
 import net.radstevee.packed.core.util.Mat2x2d
 import net.radstevee.packed.core.util.Vec3d
 import org.joml.Vector3d
 import org.joml.Vector3f
 import java.util.*
-import kotlin.collections.getOrNull
 
 object ItemModelGenerator {
 
@@ -131,10 +129,6 @@ object ItemModelGenerator {
 
     private fun MutableList<Cube.Builder>.cube(builder: Cube.Builder.() -> Unit) {
         add(Cube.Builder().apply(builder))
-    }
-
-    private fun Cube.Builder.rotation(builder: CubeRotation.Builder.() -> Unit) {
-        rotation = CubeRotation.Builder().apply(builder).build()
     }
 
     private fun generateTextures(cubes: Collection<ProcessedCube>): Map<String, Key> {

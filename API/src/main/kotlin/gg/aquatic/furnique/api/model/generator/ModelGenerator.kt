@@ -3,10 +3,10 @@ package gg.aquatic.furnique.api.model.generator
 import gg.aquatic.furnique.api.model.processed.ProcessedBone
 import gg.aquatic.furnique.api.model.processed.ProcessedCube
 import gg.aquatic.furnique.api.model.processed.ProcessedModel
-import gg.aquatic.waves.shadow.com.retrooper.packetevents.protocol.world.states.enums.Axis
 import me.rochblondiaux.blockbench.element.BlockBenchElement
 import me.rochblondiaux.blockbench.model.BlockBenchModel
 import me.rochblondiaux.blockbench.outliner.Outliner
+import org.bukkit.Axis
 import org.joml.Vector3f
 import java.util.*
 

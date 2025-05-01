@@ -1,7 +1,7 @@
 package gg.aquatic.furnique.api.model.processed
 
-import gg.aquatic.waves.shadow.com.retrooper.packetevents.protocol.world.states.enums.Axis
 import me.rochblondiaux.blockbench.element.BlockBenchElement
+import org.bukkit.Axis
 import org.joml.Vector3f
 
 class ProcessedCube(

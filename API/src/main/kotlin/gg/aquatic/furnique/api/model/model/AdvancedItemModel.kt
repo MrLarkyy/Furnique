@@ -1,9 +1,8 @@
 package gg.aquatic.furnique.api.model.model
 
-import gg.aquatic.waves.shadow.com.retrooper.packetevents.protocol.component.ComponentTypes
-import gg.aquatic.waves.shadow.com.retrooper.packetevents.protocol.component.builtin.item.ItemModel
-import gg.aquatic.waves.shadow.com.retrooper.packetevents.resources.ResourceLocation
-import gg.aquatic.waves.util.item.modifyFastMeta
+import com.github.retrooper.packetevents.resources.ResourceLocation
+import io.papermc.paper.datacomponent.DataComponentTypes
+import net.kyori.adventure.key.Key
 import org.bukkit.Material
 import org.bukkit.inventory.ItemStack
 
@@ -13,9 +12,7 @@ class AdvancedItemModel(
 ) {
 
     fun apply(item: ItemStack) {
-        item.modifyFastMeta {
-            this.nms.setComponent(ComponentTypes.ITEM_MODEL, ItemModel(model))
-        }
+        item.setData(DataComponentTypes.ITEM_MODEL, Key.key(id))
     }
 
     fun apply(material: Material): ItemStack {
