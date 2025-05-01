@@ -26,9 +26,7 @@ object FurnitureHandler {
             HashSet(),
             parent?.data?.uuid,
         )
-        if (parent != null) {
-            parent.data.children.add(data.uuid)
-        }
+        parent?.data?.children?.add(data.uuid)
         return createFurniture(data)
     }
 
