@@ -24,8 +24,15 @@ class Furniture(
             if (e.interactType != AquaticItemInteractEvent.InteractType.RIGHT && e.interactType != AquaticItemInteractEvent.InteractType.SHIFT_RIGHT) {
                 return@register
             }
-            val location = e.player.getTargetBlockExact(5)?.location ?: return@register
-            e.itemStack.amount = e.itemStack.amount - 1
+
+            val result = e.player.rayTraceBlocks(5.0) ?: return@register
+            val block = result.hitBlock ?: return@register
+            val face = result.hitBlockFace ?: return@register
+
+            val location = block.location.clone().add(face.direction)
+            if (e.player.gameMode != org.bukkit.GameMode.CREATIVE) {
+                e.itemStack.amount = e.itemStack.amount - 1
+            }
 
             FurnitureHandler.createFurniture(location, this)
         }
