@@ -53,7 +53,7 @@ subprojects {
         implementation("net.radstevee.packed:packed-core:1.1.1")
         compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
         compileOnly("com.github.LoneDev6:API-ItemsAdder:3.6.2-beta-r3-b")
-        compileOnly("gg.aquatic.comet:Comet-API:1.4.0")
+        compileOnly("gg.aquatic.comet:Comet-API:1.17.0")
         compileOnly ("com.ticxo.modelengine:ModelEngine:R4.0.8")
         compileOnly("gg.aquatic.waves:Waves:1.2.6:publish")
         compileOnly("org.joml:joml:1.10.8")
