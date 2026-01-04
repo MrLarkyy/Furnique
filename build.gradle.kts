@@ -55,7 +55,7 @@ subprojects {
         compileOnly("com.github.LoneDev6:API-ItemsAdder:3.6.2-beta-r3-b")
         compileOnly("gg.aquatic.comet:Comet-API:1.4.0")
         compileOnly ("com.ticxo.modelengine:ModelEngine:R4.0.8")
-        compileOnly("gg.aquatic.waves:Waves:1.2.6:publish")
+        compileOnly("gg.aquatic.waves:Waves:1.3.30:publish")
         compileOnly("org.joml:joml:1.10.8")
         implementation("me.rochblondiaux:blockbenchmodelreader:1.2")
         implementation("org.bstats:bstats-bukkit:3.0.2")
