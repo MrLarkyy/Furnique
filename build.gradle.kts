@@ -57,7 +57,7 @@ subprojects {
         compileOnly ("com.ticxo.modelengine:ModelEngine:R4.0.8")
         compileOnly("gg.aquatic.waves:Waves:1.2.6:publish")
         compileOnly("org.joml:joml:1.10.8")
-        implementation("me.rochblondiaux:blockbenchmodelreader:1.2")
+        implementation("me.rochblondiaux:blockbenchmodelreader:1.4")
         implementation("org.bstats:bstats-bukkit:3.0.2")
 
         compileOnly("com.github.retrooper:packetevents-spigot:2.7.0")
