@@ -1,7 +1,7 @@
 plugins {
     kotlin("jvm") version "2.1.10"
     id("com.gradleup.shadow") version "9.0.0-beta11"
-    id("co.uzzu.dotenv.gradle") version "2.0.0"
+    id("co.uzzu.dotenv.gradle") version "2.1.0"
 }
 
 val projectVersion = "0.0.1-Beta"
