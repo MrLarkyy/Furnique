@@ -50,7 +50,7 @@ subprojects {
     }
 
     dependencies {
-        implementation("net.radstevee.packed:packed-core:1.1.1")
+        implementation("net.radstevee.packed:packed-core:1.1.4")
         compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
         compileOnly("com.github.LoneDev6:API-ItemsAdder:3.6.2-beta-r3-b")
         compileOnly("gg.aquatic.comet:Comet-API:1.4.0")
