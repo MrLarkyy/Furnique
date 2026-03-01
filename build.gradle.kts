@@ -58,7 +58,7 @@ subprojects {
         compileOnly("gg.aquatic.waves:Waves:1.2.6:publish")
         compileOnly("org.joml:joml:1.10.8")
         implementation("me.rochblondiaux:blockbenchmodelreader:1.2")
-        implementation("org.bstats:bstats-bukkit:3.0.2")
+        implementation("org.bstats:bstats-bukkit:3.2.1")
 
         compileOnly("com.github.retrooper:packetevents-spigot:2.7.0")
         //implementation("net.kyori:adventure-api:4.17.0")
