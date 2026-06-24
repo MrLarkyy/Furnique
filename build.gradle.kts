@@ -60,7 +60,7 @@ subprojects {
         implementation("me.rochblondiaux:blockbenchmodelreader:1.2")
         implementation("org.bstats:bstats-bukkit:3.0.2")
 
-        compileOnly("com.github.retrooper:packetevents-spigot:2.7.0")
+        compileOnly("com.github.retrooper:packetevents-spigot:2.13.0")
         //implementation("net.kyori:adventure-api:4.17.0")
     }
 
