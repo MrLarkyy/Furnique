@@ -56,7 +56,7 @@ subprojects {
         compileOnly("gg.aquatic.comet:Comet-API:1.4.0")
         compileOnly ("com.ticxo.modelengine:ModelEngine:R4.0.8")
         compileOnly("gg.aquatic.waves:Waves:1.2.6:publish")
-        compileOnly("org.joml:joml:1.10.8")
+        compileOnly("org.joml:joml:1.10.9")
         implementation("me.rochblondiaux:blockbenchmodelreader:1.2")
         implementation("org.bstats:bstats-bukkit:3.0.2")
 
